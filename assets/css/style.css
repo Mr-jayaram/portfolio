@@ -20,7 +20,7 @@ a {
     color: inherit !important;
 }
 
-section:not(.header) {
+section:not(.header, .experience_section) {
     padding: 50px 0;
 }
 
