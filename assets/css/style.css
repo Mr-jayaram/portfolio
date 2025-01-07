@@ -164,8 +164,8 @@ section:not(.header) {
 }
 
 .project-list {
-    width: 90%;
-    margin-left: 5%;
+    width: 95%;
+    margin-left: 2.5%;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     border-radius: 7px;
