@@ -448,6 +448,36 @@ section:not(.header, .experience_section) {
     margin-bottom: 15px;
 }
 
+/* Experience Section */
+.experience_section {
+    padding: 60px 0;
+}
+
+.content-title h3 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #e91e63;
+    position: relative;
+}
+
+.content-title h3::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #e91e63;
+    display: block;
+    margin: 8px auto 0 auto;
+}
+
+.experience-list {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-list:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
 .experience-one {
     background-color: #BBF7D0;
 }
@@ -457,5 +487,91 @@ section:not(.header, .experience_section) {
 }
 
 .experience-details h5 {
+    color: #222;
+}
+
+.experience-details h6 {
+    font-size: 14px;
+    color: #555;
+}
+
+.experience-details ul {
+    padding-left: 20px;
+}
+
+.experience-details ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #444;
+}
+
+.experience-details h5 {
     /* background-color: ; */
+}
+
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.footer h4 {
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer h4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #e91e63;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.75rem;
+}
+
+.footer a {
+    color: #9e9e9e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer .social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.footer .social-icons .footer-fb:hover {
+    background-color: #0F75EF;
+}
+
+@media (max-width: 768px) {
+    .footer h4 {
+        margin-top: 1.5rem;
+    }
 }
