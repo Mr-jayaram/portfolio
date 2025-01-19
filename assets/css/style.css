@@ -346,7 +346,14 @@ section:not(.header, .experience_section) {
     background-image: url('../image/project/portfolio.jpg');
     background-size: 100% 100%;
 }
-
+.toss_slide{
+    background-image: url('../image/project/toss.png');
+    background-size: 100% 100%;
+}
+.stone_paper_slide{
+    background-image: url('../image/project/stone.jpg');
+    background-size: 100% 100%;
+}
 .custom-bg-light-green {
     background-color: #CFF0CC;
     color: black;
