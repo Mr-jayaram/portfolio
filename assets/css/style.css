@@ -9,6 +9,8 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    scroll-behavior: smooth;
+
 }
 
 ul {
@@ -51,7 +53,6 @@ section:not(.header, .experience_section) {
     width: 60%;
     display: none;
     transition: transform 2s ease-in-out, left 2s ease-in-out;
-    z-index:999;
 }
 
 .mobile-menu-content {
@@ -582,4 +583,17 @@ section:not(.header, .experience_section) {
     .footer h4 {
         margin-top: 1.5rem;
     }
+}
+.page-up{
+    position: fixed;
+    right: 5%;
+    bottom: 7%;
+}
+.page-up-icon{
+    background-color: #E91E63;
+    color:  white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    z-index: 99999999;
+    cursor: pointer;
 }
