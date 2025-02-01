@@ -29,7 +29,6 @@ section:not(.header, .experience_section) {
 .header-content {
     background-color: #060434;
     color: #fff;
-    height:100vh;
 }
 
 .menu-content {
@@ -580,22 +579,25 @@ section:not(.header, .experience_section) {
     /* background-color: #0F75EF; */
 }
 
-
+@media (max-width: 768px) {
+    .footer h4 {
+        margin-top: 1.5rem;
+    }
+}
 .page-up{
     position: fixed;
     right: 5%;
     bottom: 7%;
-    z-index: 99999999;
 }
 .page-up-icon{
     background-color: #E91E63;
     color:  white;
     padding: 10px 15px;
     border-radius: 50%;
+    z-index: 99999999;
     cursor: pointer;
 }
-@media (max-width: 768px) {
-    .footer h4 {
-        margin-top: 1.5rem;
-    }
+.certificate-img img{
+    width: 100%;
+/*    height: 500px;*/
 }
