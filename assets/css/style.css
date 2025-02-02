@@ -589,6 +589,7 @@ section:not(.header, .experience_section) {
     position: fixed;
     right: 5%;
     bottom: 7%;
+    z-index: 9999;
 }
 .page-up-icon{
     background-color: #E91E63;
